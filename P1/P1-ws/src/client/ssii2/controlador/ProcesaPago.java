@@ -48,6 +48,7 @@ import ssii2.visa.*;
 import ssii2.visa.VisaDAOWSService; // Stub generado automáticamente
 import ssii2.visa.VisaDAOWS; // Stub generado automáticamente
 import javax.xml.ws.WebServiceRef;
+import javax.xml.ws.BindingProvider;
 
 /**
  *
@@ -151,14 +152,21 @@ private void printAddresses(HttpServletRequest request, HttpServletResponse resp
             return;
         }
 
-    VisaDAOWSService service = new VisaDAOWSService();
+        VisaDAOWS dao = null; //Lo declaramos para que al compilar dao este visible para el resto del codigo
 
-		VisaDAOWS dao = service.getVisaDAOWSPort ();
+        try{
+          VisaDAOWSService service = new VisaDAOWSService();
+          dao = service.getVisaDAOWSPort ();
 
-    BindingProvider bp = (BindingProvider) dao;
-    String urlServRemoto = getServletConfig().getInitParameter("urlCompleto");
-    bp.getRequestContext().put(BindingProvider.ENDPOINT_ADDRESS_PROPERTY,urlServRemoto);
+          BindingProvider bp = (BindingProvider) dao;
+          String urlServRemoto = getServletConfig().getInitParameter("urlCompleto");
+          bp.getRequestContext().put(BindingProvider.ENDPOINT_ADDRESS_PROPERTY,urlServRemoto);
 
+        }catch (Exception ee){
+              errorLog(ee.toString());
+              return;
+          }
+    HttpSession sesion = request.getSession(false);
 		if (sesion != null) {
 			pago = (PagoBean) sesion.getAttribute(ComienzaPago.ATTR_PAGO);
 		}

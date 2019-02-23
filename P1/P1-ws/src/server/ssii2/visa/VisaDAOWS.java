@@ -391,7 +391,8 @@ public class VisaDAOWS extends DBTester {
             }
         }
 
-        return ret;
+        // Ahora devolvemos el ArrayList (no el PagoBean[])
+        return pagos;
     }
 
     // Borrar los pagos asociados a un comercio
