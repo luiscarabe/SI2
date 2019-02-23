@@ -57,7 +57,7 @@ public class DelPagos extends ServletRaiz {
         VisaDAOWS dao = service.getVisaDAOWSPort ();
 
         BindingProvider bp = (BindingProvider) dao;
-        String urlServRemoto = getServletConfig().getInitParameter("urlCompleto");
+        String urlServRemoto = getServletContext().getInitParameter("urlCompleto");
         bp.getRequestContext().put(BindingProvider.ENDPOINT_ADDRESS_PROPERTY,urlServRemoto);
 
 		/* Se recoge de la petici&oacute;n el par&aacute;metro idComercio*/

@@ -159,7 +159,7 @@ private void printAddresses(HttpServletRequest request, HttpServletResponse resp
           dao = service.getVisaDAOWSPort ();
 
           BindingProvider bp = (BindingProvider) dao;
-          String urlServRemoto = getServletConfig().getInitParameter("urlCompleto");
+          String urlServRemoto = getServletContext().getInitParameter("urlCompleto");
           bp.getRequestContext().put(BindingProvider.ENDPOINT_ADDRESS_PROPERTY,urlServRemoto);
 
         }catch (Exception ee){
@@ -198,7 +198,8 @@ private void printAddresses(HttpServletRequest request, HttpServletResponse resp
         }
 
         try{
-        	if (dao.realizaPago(pago) == null) {
+          pago = dao.realizaPago(pago);
+        	if (pago == null) {
                     enviaError(new Exception("Pago incorrecto"), request, response);
                     return;
                 }
