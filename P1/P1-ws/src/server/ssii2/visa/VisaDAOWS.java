@@ -316,7 +316,9 @@ public class VisaDAOWS extends DBTester {
             } catch (SQLException e) {
             }
         }
-
+        if (ret == false){
+          return null;
+        }
         return pago;
     }
 
