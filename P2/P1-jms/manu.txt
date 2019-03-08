@@ -1,0 +1,9 @@
+mar 13, 2017 4:39:29 PM org.hibernate.validator.internal.util.Version <clinit>
+INFO: HV000001: Hibernate Validator 5.1.2.Final
+mar 13, 2017 4:39:30 PM com.sun.messaging.jms.ra.ResourceAdapter start
+INFORMACIÓN: MQJMSRA_RA1101: GlassFish MQ JMS Resource Adapter: Version:  5.1.1  (Build 2-c) Compile:  March 17 2015 1045
+mar 13, 2017 4:39:30 PM com.sun.messaging.jms.ra.ResourceAdapter start
+INFORMACIÓN: MQJMSRA_RA1101: GlassFish MQ JMS Resource Adapter starting: broker is REMOTE, connection mode is TCP
+mar 13, 2017 4:39:30 PM com.sun.messaging.jms.ra.ResourceAdapter start
+INFORMACIÓN: MQJMSRA_RA1101: GlassFish MQ JMS Resource Adapter Started:REMOTE
+Cola de mensajes vacía!

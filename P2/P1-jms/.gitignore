@@ -1,0 +1,4 @@
+# Ficheros generados
+.ant-targets-build.xml
+build/
+dist/
