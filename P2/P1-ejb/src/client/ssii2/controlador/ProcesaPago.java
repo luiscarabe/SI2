@@ -50,6 +50,9 @@ import javax.xml.ws.BindingProvider;
 import javax.ejb.EJB;
 import ssii2.visa.VisaDAOLocal;
 
+//import ssii2.visa.VisaDAOWSService;//Stubgenerado automáticamente
+//import ssii2.visa.VisaDAOWS;//Stub generado automáticamente
+
 /**
  *
  * @author phaya
