@@ -44,9 +44,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import ssii2.visa.*;
-import javax.xml.ws.WebServiceRef;
-import javax.xml.ws.BindingProvider;
-
 import javax.ejb.EJB;
 import ssii2.visa.VisaDAOLocal;
 
@@ -176,27 +173,24 @@ private void printAddresses(HttpServletRequest request, HttpServletResponse resp
 
         // Almacenamos la tarjeta en el pago
         pago.setTarjeta(tarjeta);
-		    try{
-          if (! dao.compruebaTarjeta(tarjeta)) {
-            enviaError(new Exception("Tarjeta no autorizada:"), request, response);
-            return;
-          }
-        } catch (Exception ee){
-            errorLog(ee.toString());
-            return;
+        if (! dao.compruebaTarjeta(tarjeta)) {
+          enviaError(new Exception("Tarjeta no autorizada:"), request, response);
+          return;
         }
 
         try{
           pago = dao.realizaPago(pago);
-        	if (pago == null) {
-                    enviaError(new Exception("Pago incorrecto"), request, response);
-                    return;
-                }
         } catch (Exception ee){
+            if (sesion != null) sesion.invalidate();
+            enviaError(new Exception("Pago incorrecto"), request, response);
             errorLog(ee.toString());
             return;
         }
 
+        if(pago == null){
+          enviaError(new Exception("Pago incorrecto"), request, response);
+          return;
+        }
         request.setAttribute(ComienzaPago.ATTR_PAGO, pago);
         if (sesion != null) sesion.invalidate();
         reenvia("/pagoexito.jsp", request, response);

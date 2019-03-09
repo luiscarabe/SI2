@@ -14,7 +14,7 @@ import javax.naming.InitialContext;
 
 public class VisaQueueMessageProducer {
 
-    @Resource(mappedName = "jms/VisaConnectionFactory") 
+    @Resource(mappedName = "jms/VisaConnectionFactory")
     private static ConnectionFactory connectionFactory;
 
     @Resource(mappedName = "jms/VisaPagosQueue")
@@ -65,26 +65,26 @@ public class VisaQueueMessageProducer {
         }
 
         try {
-          // Inicialización de connectionFactory y queue mediante JNDI
-
-          /*InitialContext jndi = new InitialContext(); 
-          connectionFactory = (ConnectionFactory)jndi.lookup("jms/VisaConnectionFactory"); 
-          queue = (Queue)jndi.lookup("jms/VisaPagosQueue");
-		      */
 
           connection = connectionFactory.createConnection();
           session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
-          messageProducer = session.createProducer(queue); 
-      	  message = session.createTextMessage(); 
+          messageProducer = session.createProducer(queue);
+      	  message = session.createTextMessage();
+
+          /* Inicialización de connectionFactory y queue mediante JNDI*/
+          /*InitialContext jndi = new InitialContext();
+          connectionFactory = (ConnectionFactory)jndi.lookup("jms/VisaConnectionFactory");
+          queue = (Queue)jndi.lookup("jms/VisaPagosQueue");
+		      */
 
           if (args[0].equals("-browse")) {
-            browseMessages(session); 
+            browseMessages(session);
           } else {
             // TODO: Enviar argv[0] como mensaje de texto
-    		    message.setText(args[0]); 
+    		    message.setText(args[0]);
     		    System.out.println("Enviando el siguiente mensaje: "+ message.getText());
-          	messageProducer.send(message); 
-            messageProducer.close(); 
+          	messageProducer.send(message);
+            messageProducer.close();
          		session.close();
           }
         } catch (Exception e) {

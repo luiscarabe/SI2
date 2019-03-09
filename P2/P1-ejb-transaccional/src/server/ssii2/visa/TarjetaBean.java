@@ -1,13 +1,13 @@
 /**
  * Pr&aacute;ctricas de Sistemas Inform&aacute;ticos II
- * 
+ *
  * Esta clase incluye los campos de una tarjeta de cr&eacute;dito
- * 
+ *
  */
 package ssii2.visa;
 
 public class TarjetaBean {
-    
+
     private String numero;
     private String titular;
     private String fechaEmision;
@@ -34,7 +34,7 @@ public class TarjetaBean {
     /**
      * Devuelve el n&uacute;mero de la tarjeta
      * @return el n&uacute;mero de la tarjeta
-     */   
+     */
     public String getNumero() {
         return numero;
     }
@@ -93,5 +93,13 @@ public class TarjetaBean {
      */
     public void setCodigoVerificacion(String codigoVerificacion) {
         this.codigoVerificacion = codigoVerificacion;
+    }
+
+    public double getSaldo(){
+      return saldo;
+    }
+
+    public void setSaldo(double saldo){
+      this.saldo=saldo;
     }
 }
