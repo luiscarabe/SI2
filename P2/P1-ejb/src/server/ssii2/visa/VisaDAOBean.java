@@ -389,7 +389,7 @@ public class VisaDAOBean extends DBTester implements VisaDAOLocal{
             }
         }
 
-        // Ahora devolvemos el ArrayList (no el PagoBean[])
+        // Ahora devolvemos el PagoBean[], no el ArrayList
         return ret; // antes ponia pagos ej1
     }
 
