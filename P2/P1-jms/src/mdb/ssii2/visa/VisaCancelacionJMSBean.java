@@ -32,7 +32,7 @@ public class VisaCancelacionJMSBean extends DBTester implements MessageListener 
   // Definir UPDATE sobre la tabla pagos para poner
   // codRespuesta a 999 dado un código de autorización
   private static final String UPDATE_CANCELA_QRY =
-      "update pago" + 
+      "update pago" +
       " set codrespuesta=999" +
       " where idautorizacion=?";
 
@@ -42,7 +42,12 @@ public class VisaCancelacionJMSBean extends DBTester implements MessageListener 
     " from pago"+
     " where pago.idautorizacion=?"+
     " and tarjeta.numerotarjeta = pago.numerotarjeta";
-    
+
+    private static final String SELECT_CODRESPUESTA_QRY =
+                    "select codrespuesta " +
+                    " from pago " +
+                    " where idautorizacion = ?";
+
 
   public VisaCancelacionJMSBean() {
   }
@@ -80,11 +85,32 @@ public class VisaCancelacionJMSBean extends DBTester implements MessageListener 
               msg = (TextMessage) inMessage;
               logger.info("MESSAGE BEAN: Message received: " + msg.getText());
               int idauth = Integer.parseInt(msg.getText());
-              // Ejercicio 11
-              ejecutarConsultaActualizacion(UPDATE_CANCELA_QRY, idauth);
-              ejecutarConsultaActualizacion(RECTIFICAR_SALDO_QRY, idauth);
-              // Ejercicio 11
-              
+
+              // Comprobamos que el pago no ha sido anulado previamente
+              PreparedStatement pstmt = null;
+              Connection con = null;
+              ResultSet rs = null;
+              int ret = 0;
+
+              con = getConnection();
+
+              String select = SELECT_CODRESPUESTA_QRY;
+              logger.warning(select);
+              pstmt = con.prepareStatement(select);
+              pstmt.setInt(1, idauth);
+              rs = pstmt.executeQuery();
+              if(rs.next()){
+                String cod = rs.getString("codrespuesta");
+                if(!cod.equals("999")){
+                  ejecutarConsultaActualizacion(UPDATE_CANCELA_QRY, idauth);
+                  ejecutarConsultaActualizacion(RECTIFICAR_SALDO_QRY, idauth);
+                }
+                logger.warning("El pago ya ha sido anulado previamente.");
+              }
+              logger.warning("El pago no existe.");
+
+              pstmt.close();
+
           } else {
               logger.warning(
                       "Message of wrong type: "
