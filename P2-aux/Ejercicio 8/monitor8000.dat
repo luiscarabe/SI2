@@ -1,0 +1,14 @@
+    #Muestra numJDBCCount numHTTPCount     numHTTPQ
+           0            1            5          557
+           1            0            5          569
+           2            0            5          566
+           3            0            5          529
+           4            0            5          540
+           5            0            5          541
+           6            0            5          546
+           7            0            1          536
+           8            0            5          554
+           9            0            5          485
+
+TOT.MUESTRAS        MEDIA:
+          10          0.1          4.6        542.3
