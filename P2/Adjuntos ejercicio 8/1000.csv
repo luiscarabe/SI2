@@ -1,0 +1,4 @@
+Label,# Samples,Average,Median,90% Line,95% Line,99% Line,Min,Max,Error %,Throughput,Received KB/sec,Sent KB/sec
+/P1-base/comienzapago,10000,2798,2172,4512,6818,17804,1,130603,0.060%,47.92003,93.07,0.00
+/P1-base/procesapago,10000,2938,2311,4573,7223,17515,6,130624,0.050%,47.79087,45.81,0.00
+TOTAL,20000,2868,2242,4543,7062,17673,1,130624,0.055%,94.57517,137.18,0.00
