@@ -1,0 +1,253 @@
+2019-04-18 15:02:06,197 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2019-04-18 15:02:06,403 INFO o.a.j.JMeter: Loading user properties from: /home/luis/Downloads/apache-jmeter-5.0/bin/user.properties
+2019-04-18 15:02:06,405 INFO o.a.j.JMeter: Loading system properties from: /home/luis/Downloads/apache-jmeter-5.0/bin/system.properties
+2019-04-18 15:02:06,451 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2019-04-18 15:02:06,452 INFO o.a.j.JMeter: Version 5.0 r1840935
+2019-04-18 15:02:06,452 INFO o.a.j.JMeter: java.version=1.8.0_201
+2019-04-18 15:02:06,452 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2019-04-18 15:02:06,452 INFO o.a.j.JMeter: os.name=Linux
+2019-04-18 15:02:06,452 INFO o.a.j.JMeter: os.arch=amd64
+2019-04-18 15:02:06,453 INFO o.a.j.JMeter: os.version=4.15.0-45-generic
+2019-04-18 15:02:06,453 INFO o.a.j.JMeter: file.encoding=UTF-8
+2019-04-18 15:02:06,453 INFO o.a.j.JMeter: Max memory     =1800929280
+2019-04-18 15:02:06,453 INFO o.a.j.JMeter: Available Processors =4
+2019-04-18 15:02:06,576 INFO o.a.j.JMeter: Default Locale=English (United States)
+2019-04-18 15:02:06,577 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2019-04-18 15:02:06,578 INFO o.a.j.JMeter: JMeterHome=/home/luis/Downloads/apache-jmeter-5.0
+2019-04-18 15:02:06,578 INFO o.a.j.JMeter: user.dir  =/home/luis/Desktop/UAM/SI2/SI2/P3/P3
+2019-04-18 15:02:06,578 INFO o.a.j.JMeter: PWD       =/home/luis/Desktop/UAM/SI2/SI2/P3/P3
+2019-04-18 15:02:06,579 INFO o.a.j.JMeter: IP: 127.0.1.1 Name: luis-HP-Pavilion-x360 FullName: luis-HP-Pavilion-x360
+2019-04-18 15:02:06,943 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2019-04-18 15:02:06,984 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.bulenkov.darcula.DarculaLaf [Darcula]
+2019-04-18 15:02:06,985 INFO o.a.j.JMeter: Setting LAF to: com.bulenkov.darcula.DarculaLaf
+2019-04-18 15:02:07,075 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2019-04-18 15:02:07,497 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2019-04-18 15:02:07,498 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2019-04-18 15:02:09,066 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-04-18 15:02:09,068 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-04-18 15:02:09,068 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-04-18 15:02:09,068 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-04-18 15:02:09,068 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2019-04-18 15:02:09,069 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2019-04-18 15:02:09,403 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2019-04-18 15:02:09,404 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /home/luis/Downloads/apache-jmeter-5.0/bin/proxyserver.jks
+2019-04-18 15:02:09,529 INFO o.a.j.s.FileServer: Default base='/home/luis/Desktop/UAM/SI2/SI2/P3/P3'
+2019-04-18 15:02:09,814 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2019-04-18 15:02:09,814 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2019-04-18 15:02:09,814 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2019-04-18 15:02:09,814 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2019-04-18 15:02:20,107 INFO o.a.j.g.a.Load: Loading file: /home/luis/Desktop/UAM/SI2/SI2/P3/P3/P2.jmx
+2019-04-18 15:02:20,107 INFO o.a.j.s.FileServer: Set new base='/home/luis/Desktop/UAM/SI2/SI2/P3/P3'
+2019-04-18 15:02:20,301 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2019-04-18 15:02:20,319 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2019-04-18 15:02:20,320 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2019-04-18 15:02:20,324 INFO o.a.j.s.SaveService: Loading file: /home/luis/Desktop/UAM/SI2/SI2/P3/P3/P2.jmx
+2019-04-18 15:02:20,541 INFO o.a.j.s.FileServer: Set new base='/home/luis/Desktop/UAM/SI2/SI2/P3/P3'
+2019-04-18 15:09:47,492 INFO o.a.j.g.a.Load: Loading file: /home/luis/Desktop/UAM/SI2/SI2/P2/P2-curvaProductividad.jmx
+2019-04-18 15:09:47,492 INFO o.a.j.s.FileServer: Set new base='/home/luis/Desktop/UAM/SI2/SI2/P2'
+2019-04-18 15:09:47,492 INFO o.a.j.s.SaveService: Loading file: /home/luis/Desktop/UAM/SI2/SI2/P2/P2-curvaProductividad.jmx
+2019-04-18 15:09:47,506 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2019-04-18 15:09:47,508 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
+2019-04-18 15:09:47,588 INFO o.a.j.s.FileServer: Set new base='/home/luis/Desktop/UAM/SI2/SI2/P2'
+2019-04-18 15:10:37,750 INFO o.a.j.g.a.Load: Loading file: /home/luis/Desktop/UAM/SI2/SI2/P3/P3/P2.jmx
+2019-04-18 15:10:37,750 INFO o.a.j.s.FileServer: Set new base='/home/luis/Desktop/UAM/SI2/SI2/P3/P3'
+2019-04-18 15:10:37,751 INFO o.a.j.s.SaveService: Loading file: /home/luis/Desktop/UAM/SI2/SI2/P3/P3/P2.jmx
+2019-04-18 15:10:37,864 INFO o.a.j.s.FileServer: Set new base='/home/luis/Desktop/UAM/SI2/SI2/P3/P3'
+2019-04-18 15:12:50,840 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-18 15:12:50,844 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-18 15:12:50,846 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-18 15:12:50,846 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-18 15:12:50,849 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-18 15:12:50,852 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-18 15:12:50,853 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [#_samples]
+2019-04-18 15:12:50,854 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [median]
+2019-04-18 15:12:50,855 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [90%_line]
+2019-04-18 15:12:50,856 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [95%_line]
+2019-04-18 15:12:50,857 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [99%_line]
+2019-04-18 15:12:50,857 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [min]
+2019-04-18 15:12:50,857 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [error_%]
+2019-04-18 15:12:50,858 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [throughput]
+2019-04-18 15:12:50,858 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [received_kb/sec]
+2019-04-18 15:12:50,859 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [sent_kb/sec]
+2019-04-18 15:12:50,869 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-18 15:12:50,869 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-18 15:12:50,950 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-18 15:12:50,951 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [#_samples]
+2019-04-18 15:12:50,951 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [median]
+2019-04-18 15:12:50,951 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [90%_line]
+2019-04-18 15:12:50,952 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [95%_line]
+2019-04-18 15:12:50,952 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [99%_line]
+2019-04-18 15:12:50,952 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [min]
+2019-04-18 15:12:50,952 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [error_%]
+2019-04-18 15:12:50,952 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [throughput]
+2019-04-18 15:12:50,953 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [received_kb/sec]
+2019-04-18 15:12:50,953 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [sent_kb/sec]
+2019-04-18 15:12:57,255 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-04-18 15:12:57,256 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-04-18 15:12:57,257 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-04-18 15:12:57,263 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2019-04-18 15:12:57,437 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : P1-base
+2019-04-18 15:12:57,437 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group P1-base.
+2019-04-18 15:12:57,437 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-04-18 15:12:57,437 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=5 perThread=5000.0 delayedStart=false
+2019-04-18 15:12:57,440 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-04-18 15:12:57,440 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-04-18 15:12:57,442 INFO o.a.j.t.JMeterThread: Thread started: P1-base 1-1
+2019-04-18 15:12:57,446 INFO o.a.j.s.FileServer: Stored: /home/luis/Desktop/UAM/SI2/SI2/P2/datagen/listado.csv
+2019-04-18 15:12:57,455 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = luis-HP-Pavilion-x360
+2019-04-18 15:12:57,459 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2019-04-18 15:12:57,562 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2019-04-18 15:12:57,562 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2019-04-18 15:13:00,915 INFO o.a.j.t.JMeterThread: Thread is done: P1-base 1-1
+2019-04-18 15:13:00,915 INFO o.a.j.t.JMeterThread: Thread finished: P1-base 1-1
+2019-04-18 15:13:00,916 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-04-18 15:13:00,917 INFO o.a.j.s.FileServer: Close: /home/luis/Desktop/UAM/SI2/SI2/P2/datagen/listado.csv
+2019-04-18 15:13:00,917 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2019-04-18 15:15:20,063 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-18 15:15:20,069 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-18 15:15:20,070 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-18 15:15:20,074 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-18 15:15:20,075 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [#_samples]
+2019-04-18 15:15:20,075 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [median]
+2019-04-18 15:15:20,076 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [90%_line]
+2019-04-18 15:15:20,076 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [95%_line]
+2019-04-18 15:15:20,077 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [99%_line]
+2019-04-18 15:15:20,077 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [min]
+2019-04-18 15:15:20,077 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [error_%]
+2019-04-18 15:15:20,078 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [throughput]
+2019-04-18 15:15:20,078 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [received_kb/sec]
+2019-04-18 15:15:20,079 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [sent_kb/sec]
+2019-04-18 15:15:20,160 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-18 15:15:20,160 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [#_samples]
+2019-04-18 15:15:20,160 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [median]
+2019-04-18 15:15:20,161 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [90%_line]
+2019-04-18 15:15:20,161 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [95%_line]
+2019-04-18 15:15:20,161 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [99%_line]
+2019-04-18 15:15:20,161 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [min]
+2019-04-18 15:15:20,162 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [error_%]
+2019-04-18 15:15:20,162 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [throughput]
+2019-04-18 15:15:20,163 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [received_kb/sec]
+2019-04-18 15:15:20,163 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [sent_kb/sec]
+2019-04-18 15:15:44,855 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-04-18 15:15:44,856 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-04-18 15:15:44,858 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2019-04-18 15:15:45,089 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : P1-base
+2019-04-18 15:15:45,089 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group P1-base.
+2019-04-18 15:15:45,089 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-04-18 15:15:45,089 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=5 perThread=5000.0 delayedStart=false
+2019-04-18 15:15:45,090 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-04-18 15:15:45,091 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-04-18 15:15:45,091 INFO o.a.j.t.JMeterThread: Thread started: P1-base 1-1
+2019-04-18 15:15:45,092 INFO o.a.j.s.FileServer: Stored: /home/luis/Desktop/UAM/SI2/SI2/P2/datagen/listado.csv
+2019-04-18 15:15:48,257 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-18 15:15:48,258 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-18 15:15:48,259 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-18 15:15:48,260 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-18 15:15:48,260 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [#_samples]
+2019-04-18 15:15:48,260 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [median]
+2019-04-18 15:15:48,260 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [90%_line]
+2019-04-18 15:15:48,260 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [95%_line]
+2019-04-18 15:15:48,260 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [99%_line]
+2019-04-18 15:15:48,260 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [min]
+2019-04-18 15:15:48,261 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [error_%]
+2019-04-18 15:15:48,261 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [throughput]
+2019-04-18 15:15:48,261 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [received_kb/sec]
+2019-04-18 15:15:48,261 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [sent_kb/sec]
+2019-04-18 15:15:48,358 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-18 15:15:48,359 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [#_samples]
+2019-04-18 15:15:48,360 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [median]
+2019-04-18 15:15:48,360 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [90%_line]
+2019-04-18 15:15:48,360 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [95%_line]
+2019-04-18 15:15:48,360 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [99%_line]
+2019-04-18 15:15:48,361 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [min]
+2019-04-18 15:15:48,361 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [error_%]
+2019-04-18 15:15:48,361 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [throughput]
+2019-04-18 15:15:48,361 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [received_kb/sec]
+2019-04-18 15:15:48,361 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [sent_kb/sec]
+2019-04-18 15:15:53,441 INFO o.a.j.t.JMeterThread: Thread is done: P1-base 1-1
+2019-04-18 15:15:53,441 INFO o.a.j.t.JMeterThread: Thread finished: P1-base 1-1
+2019-04-18 15:15:53,441 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-04-18 15:15:53,441 INFO o.a.j.s.FileServer: Close: /home/luis/Desktop/UAM/SI2/SI2/P2/datagen/listado.csv
+2019-04-18 15:15:53,442 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2019-04-18 15:27:40,606 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-04-18 15:27:40,606 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-04-18 15:27:40,607 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2019-04-18 15:27:40,737 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : P1-base
+2019-04-18 15:27:40,737 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group P1-base.
+2019-04-18 15:27:40,737 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-04-18 15:27:40,737 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=5 perThread=5000.0 delayedStart=false
+2019-04-18 15:27:40,738 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-04-18 15:27:40,738 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-04-18 15:27:40,738 INFO o.a.j.t.JMeterThread: Thread started: P1-base 1-1
+2019-04-18 15:27:40,739 INFO o.a.j.s.FileServer: Stored: /home/luis/Desktop/UAM/SI2/SI2/P2/datagen/listado.csv
+2019-04-18 15:27:43,527 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-18 15:27:43,530 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-18 15:27:43,530 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-18 15:27:43,531 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-18 15:27:43,531 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [#_samples]
+2019-04-18 15:27:43,532 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [median]
+2019-04-18 15:27:43,532 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [90%_line]
+2019-04-18 15:27:43,532 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [95%_line]
+2019-04-18 15:27:43,532 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [99%_line]
+2019-04-18 15:27:43,532 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [min]
+2019-04-18 15:27:43,532 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [error_%]
+2019-04-18 15:27:43,533 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [throughput]
+2019-04-18 15:27:43,533 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [received_kb/sec]
+2019-04-18 15:27:43,533 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [sent_kb/sec]
+2019-04-18 15:27:43,652 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-18 15:27:43,653 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [#_samples]
+2019-04-18 15:27:43,653 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [median]
+2019-04-18 15:27:43,653 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [90%_line]
+2019-04-18 15:27:43,653 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [95%_line]
+2019-04-18 15:27:43,653 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [99%_line]
+2019-04-18 15:27:43,653 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [min]
+2019-04-18 15:27:43,653 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [error_%]
+2019-04-18 15:27:43,653 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [throughput]
+2019-04-18 15:27:43,653 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [received_kb/sec]
+2019-04-18 15:27:43,654 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [sent_kb/sec]
+2019-04-18 15:27:47,961 INFO o.a.j.t.JMeterThread: Thread is done: P1-base 1-1
+2019-04-18 15:27:47,961 INFO o.a.j.t.JMeterThread: Thread finished: P1-base 1-1
+2019-04-18 15:27:47,961 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-04-18 15:27:47,961 INFO o.a.j.s.FileServer: Close: /home/luis/Desktop/UAM/SI2/SI2/P2/datagen/listado.csv
+2019-04-18 15:27:47,962 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2019-04-18 15:34:36,739 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-04-18 15:34:36,746 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-04-18 15:34:36,750 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2019-04-18 15:34:36,953 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : P1-base
+2019-04-18 15:34:36,953 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group P1-base.
+2019-04-18 15:34:36,953 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-04-18 15:34:36,954 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=5 perThread=5000.0 delayedStart=false
+2019-04-18 15:34:36,954 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-04-18 15:34:36,954 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-04-18 15:34:36,955 INFO o.a.j.t.JMeterThread: Thread started: P1-base 1-1
+2019-04-18 15:34:36,955 INFO o.a.j.s.FileServer: Stored: /home/luis/Desktop/UAM/SI2/SI2/P2/datagen/listado.csv
+2019-04-18 15:34:42,267 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-18 15:34:42,269 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-18 15:34:42,269 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-18 15:34:42,270 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-18 15:34:42,270 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [#_samples]
+2019-04-18 15:34:42,270 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [median]
+2019-04-18 15:34:42,270 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [90%_line]
+2019-04-18 15:34:42,270 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [95%_line]
+2019-04-18 15:34:42,270 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [99%_line]
+2019-04-18 15:34:42,270 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [min]
+2019-04-18 15:34:42,270 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [error_%]
+2019-04-18 15:34:42,271 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [throughput]
+2019-04-18 15:34:42,271 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [received_kb/sec]
+2019-04-18 15:34:42,271 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [sent_kb/sec]
+2019-04-18 15:34:42,405 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2019-04-18 15:34:42,405 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [#_samples]
+2019-04-18 15:34:42,405 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [median]
+2019-04-18 15:34:42,405 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [90%_line]
+2019-04-18 15:34:42,405 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [95%_line]
+2019-04-18 15:34:42,405 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [99%_line]
+2019-04-18 15:34:42,405 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [min]
+2019-04-18 15:34:42,405 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [error_%]
+2019-04-18 15:34:42,405 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [throughput]
+2019-04-18 15:34:42,405 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [received_kb/sec]
+2019-04-18 15:34:42,406 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [sent_kb/sec]
+2019-04-18 15:34:42,676 INFO o.a.j.t.JMeterThread: Thread is done: P1-base 1-1
+2019-04-18 15:34:42,676 INFO o.a.j.t.JMeterThread: Thread finished: P1-base 1-1
+2019-04-18 15:34:42,677 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-04-18 15:34:42,677 INFO o.a.j.s.FileServer: Close: /home/luis/Desktop/UAM/SI2/SI2/P2/datagen/listado.csv
+2019-04-18 15:34:42,678 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
